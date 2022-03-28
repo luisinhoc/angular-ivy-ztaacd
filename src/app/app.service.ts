@@ -14,5 +14,4 @@ export class AppService {
   set user(name: string) {
     this.subject.next(name);
   }
-
 }
